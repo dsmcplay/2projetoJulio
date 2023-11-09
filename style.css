@@ -1,0 +1,150 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+.logo {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#buscar {
+  margin: auto;
+  margin-top: 32px;
+  width: 543px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 2px solid #24444c;
+  background: #fff;
+}
+
+#menusuperior button {
+  margin-top: 32px;
+  margin: auto;
+  width: 120px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #24444c;
+  border: none;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: thin;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+#menusuperior {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  margin-bottom: 50px;
+}
+#categorias {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  border-top: solid 1px #24444c;
+  border-bottom: solid 1px #24444c;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #3cb86d;
+}
+#slides {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+#slides img {
+  width: 500px;
+  margin: 20px;
+  border-radius: 10px;
+}
+#receitas h2 {
+  text-align: left;
+  color: #3cb86d;
+  margin-left: 10px;
+}
+#imgReceitas {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+#imgReceitas img {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+#imgReceitas h3 {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  margin-left: 10px;
+  color: #3cb86d;
+  font-size: 15pt;
+}
+#tenhocasa {
+  border-radius: 10px;
+  background-color: #24444c;
+  color: white;
+  height: auto;
+  display: grid;
+}
+.ingrediente {
+  border: none;
+  border-radius: 10px;
+  width: 500px;
+  height: 30px;
+  margin: auto;
+}
+#buttoningredientes {
+  width: 150px;
+  height: 50px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #3cb86d;
+  color: white;
+  font-size: 15pt;
+  box-shadow: 3px 5px 10px #3cb86e60;
+  cursor: pointer;
+}
+#buttoningredientes:hover {
+  background-color: #5ba4b6;
+}
+#buttoningredientes:active {
+  background-color: #17b355;
+  box-shadow: 0 5px #3cb86e60;
+}
+#final {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+#redes {
+  width: 300px;
+  margin-top: 70px;
+}
+#app {
+  margin-left: 200px;
+}
+#apple {
+  width: 100px;
+}
+#apple:hover {
+  cursor: pointer;
+}
+#android {
+  width: 100px;
+}
+#android:hover {
+  cursor: pointer;
+}

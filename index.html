@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CookBook</title>
+</head>
+
+<body>
+    <!--MENU SUPERIOR-->
+    <header id="menusuperior">
+        <img src="/img/logo site de receita.svg" class="logo">
+        <div class="search">
+            <input type="text" id="buscar" placeholder="Buscar receitas...">
+        </div>
+        <button onclick="receita_Buscar()">Buscar</button>
+    </header>
+    <!-- CATEGORIAS -->
+    <section id="categorias">
+        <a href="">
+            <p>BRASIL EM<br>FESTA</p>
+        </a>
+        <a href="">
+            <p>CANAIS<br>ESPECIAIS</p>
+        </a>
+        <a href="">
+            <p>NOTÍCIAS</p>
+        </a>
+        <a href="">
+            <p>CARNES</p>
+        </a>
+        <a href="">
+            <p>AVES</p>
+        </a>
+        <a href="">
+            <p>PEIXES E<br>FRUTOS DO<br>MAR</p>
+        </a>
+        <a href="">
+            <p>SALADAS E<br>MOLHOS</p>
+        </a>
+        <a href="">
+            <p>SOPAS</p>
+        </a>
+        <a href="">
+            <p>MASSAS</p>
+        </a>
+        <a href="">
+            <p>BEBIDAS</p>
+        </a>
+        <a href="">
+            <p>DOCES E<br>SOBREMESAS</p>
+        </a>
+    </section>
+    <!-- areas de propagandas -->
+    <section id="slides">
+        <img src="/img/slide1.svg" alt="" id="slide1">
+        <img src="/img/slide2.svg" alt="" id="slide2">
+        <img src="/img/slide3.svg" alt="" id="slide3">
+        <img src="/img/slide4.svg" alt="" id="slide4">
+    </section>
+    <!-- area de receitas faceis -->
+    <section id="receitas">
+        <h2>Receitas para o Verão</h2>
+        <div id="imgReceitas">
+            <div>
+                <a href=""><img src="/img/receita1.svg" alt="">
+                    <h3>Bolo Pelado</h3>
+                </a>
+            </div>
+            <div>
+                <a href=""><img src="/img/receita2.svg" alt="">
+                    <h3>Gelatina Mosaico</h3>
+                </a>
+            </div>
+            <div>
+                <a href=""><img src="/img/receita3.svg" alt="">
+                    <h3>Salada Caesar Maggi</h3>
+                </a>
+            </div>
+            <div>
+                <a href=""><img src="/img/receita4.svg" alt="">
+                    <h3>Raspadinha de Groselha</h3>
+                </a>
+            </div>
+            <div>
+                <a href=""><img src="/img/receita5.svg" alt="">
+                    <h3>Sorvete de Flocos</h3>
+                </a>
+            </div>
+            <div>
+                <a href=""><img src="/img/receita6.svg" alt="">
+                    <h3>Mini Bolo de Frutas e Flores</h3>
+                </a>
+            </div>
+            <div>
+                <a href=""><img src="/img/receita7.svg" alt="">
+                    <h3>Salada Fresca</h3>
+                </a>
+            </div>
+            <div>
+                <a href=""><img src="/img/receita8.svg" alt="">
+                    <h3>Moça Açai</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- area de pesquisa ultilizando ingredientes que ja tem em casa -->
+    <section id="tenhocasa">
+        <h1>O QUE VOCÊ TEM EM CASA?</h1>
+        <p>Basta indicar 2 ingredientes que indicaremos<br>receitas que você pode fazer!</p>
+        <input type="text" class="ingrediente">
+        <h4> Me diga outro ingrediente</h4>
+        <input type="text" class="ingrediente">
+        <input type="button" value="PESQUISAR" id="buttoningredientes">
+    </section>
+    <footer>
+        <div>
+            <img src="/img/logo site de receita.svg" alt="" class="logo">
+        </div>
+        <div id="final">
+            <div>
+                <a href=""><img src="/img/redes.svg" alt="" id="redes"></a>
+            </div>
+            <div id="app">
+                <h2>APLICAÇÕES</h2>
+                <P>COOK BOOK oferece gratuitamente uma das mais ricas aplicações de receitas de cozinha em celulares e tablets</P>
+                <div>
+                    <img src="/img/apple.svg" alt="" id="apple">
+                    <img src="/img/android.svg" alt="" id="android">
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+
+    <script src="Index.js"></script>
+</body>
+
+</html>
