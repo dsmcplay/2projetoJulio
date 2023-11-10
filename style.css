@@ -67,22 +67,22 @@ a {
   margin: 20px;
   border-radius: 10px;
 }
-#receitas h2 {
+.receitas h2 {
   text-align: left;
   color: #3cb86d;
   margin-left: 10px;
 }
-#imgReceitas {
+.imgReceitas {
   display: grid;
   grid-auto-flow: column;
   columns: auto;
 }
-#imgReceitas img {
+.imgReceitas img {
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 10px;
 }
-#imgReceitas h3 {
+.imgReceitas h3 {
   padding: 0;
   margin: 0;
   text-align: left;
@@ -124,10 +124,16 @@ a {
   background-color: #17b355;
   box-shadow: 0 5px #3cb86e60;
 }
+footer{
+  border-radius: 10px 10px 0px 0px;
+  color: #fff;
+  background-color: #17b3556e;
+}
 #final {
   display: grid;
   grid-auto-flow: column;
   columns: auto;
+  padding-bottom: 20px;
 }
 #redes {
   width: 300px;
@@ -137,13 +143,13 @@ a {
   margin-left: 200px;
 }
 #apple {
-  width: 100px;
+  width: 80px;
 }
 #apple:hover {
   cursor: pointer;
 }
 #android {
-  width: 100px;
+  width: 80px;
 }
 #android:hover {
   cursor: pointer;
