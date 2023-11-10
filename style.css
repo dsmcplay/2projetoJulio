@@ -57,15 +57,58 @@ a {
   text-decoration: none;
   color: #3cb86d;
 }
-#slides {
-  display: grid;
-  grid-auto-flow: column;
-  columns: auto;
+#slider {
+  margin: 50px auto;
+  width: 800px;
+  overflow: hidden;
 }
-#slides img {
-  width: 500px;
-  margin: 20px;
+.slides {
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+.slides input {
+  display: none;
+}
+#slider img {
+  width: 800px;
   border-radius: 10px;
+}
+.slides {
+  width: 25%;
+  position: relative;
+}
+.manual-navigation {
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+.manual-btn:hover {
+  background-color: #fff;
+}
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -400%;
+}
+#radio3:checked ~ .first {
+  margin-left: -800%;
+}
+#radio4:checked ~ .first {
+  margin-left: -1200%;
 }
 .receitas h2 {
   text-align: left;
@@ -124,7 +167,7 @@ a {
   background-color: #17b355;
   box-shadow: 0 5px #3cb86e60;
 }
-footer{
+footer {
   border-radius: 10px 10px 0px 0px;
   color: #fff;
   background-color: #17b3556e;
